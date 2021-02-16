@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report">
+    <sys_report action="INSERT_OR_UPDATE">
+        <additional_groupby/>
+        <aggregate>COUNT</aggregate>
+        <aggregation_source/>
+        <allow_data_label_overlap>false</allow_data_label_overlap>
+        <apply_alias>true</apply_alias>
+        <axis_max_color/>
+        <axis_min_color/>
+        <bar_unstack>false</bar_unstack>
+        <calendar/>
+        <chart_background_color/>
+        <chart_border_color/>
+        <chart_border_radius>0</chart_border_radius>
+        <chart_border_width>1</chart_border_width>
+        <chart_height/>
+        <chart_size>large</chart_size>
+        <chart_subtitle/>
+        <chart_subtitle_color/>
+        <chart_subtitle_size>14</chart_subtitle_size>
+        <chart_subtitle_style>normal</chart_subtitle_style>
+        <chart_title/>
+        <chart_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</chart_title_color>
+        <chart_title_size>16</chart_title_size>
+        <chart_title_style>normal</chart_title_style>
+        <chart_title_x_position/>
+        <chart_title_y_position/>
+        <chart_width/>
+        <color/>
+        <color_palette/>
+        <colors/>
+        <column/>
+        <compute_percent>aggregate</compute_percent>
+        <content/>
+        <created_by_user/>
+        <custom_chart_size>false</custom_chart_size>
+        <custom_chart_title_position>false</custom_chart_title_position>
+        <custom_config/>
+        <decimal_precision>2</decimal_precision>
+        <description>This report was automatically generated and will be deleted automatically by a Table Cleaner. Please do not alter this text.</description>
+        <direction>minimize</direction>
+        <display_column_lines>false</display_column_lines>
+        <display_grid>false</display_grid>
+        <display_row_lines>false</display_row_lines>
+        <donut_width_percent>50</donut_width_percent>
+        <end_time/>
+        <exp_report_attrs>true</exp_report_attrs>
+        <field>parent.base_suite_result.start_time</field>
+        <field_list>start_time,test_suite,status,run_time</field_list>
+        <filter table="sys_atf_test_result">parent.base_suite_result=2e5cea1d2f1220101fdc52172799b654^ORparent.base_suite_result=e899e6992f1220101fdc52172799b6fa^EQ^ORDERBYDESCparent.base_suite_result.start_time^GROUPBYparent.base_suite_result.start_time^EQ^TRENDBYparent,year<item display_table="sys_atf_test_suite_result" display_value="TES0001003" endquery="false" field="parent.base_suite_result" goto="false" newquery="false" operator="=" or="false" value="2e5cea1d2f1220101fdc52172799b654"/>
+            <item display_table="sys_atf_test_suite_result" display_value="TES0001001" endquery="false" field="parent.base_suite_result" goto="false" newquery="false" operator="=" or="true" value="e899e6992f1220101fdc52172799b6fa"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBYDESC" or="false" value="parent.base_suite_result.start_time"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="parent.base_suite_result.start_time"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="TRENDBY" or="false" value="parent,year"/>
+        </filter>
+        <formatting_configuration/>
+        <from/>
+        <funnel_neck_percent>30</funnel_neck_percent>
+        <gauge_autoscale>true</gauge_autoscale>
+        <group/>
+        <import_table/>
+        <interval>year</interval>
+        <is_published>true</is_published>
+        <is_real_time>false</is_real_time>
+        <is_scheduled>false</is_scheduled>
+        <legend_align_columns>true</legend_align_columns>
+        <legend_background_color/>
+        <legend_border_color/>
+        <legend_border_radius>0</legend_border_radius>
+        <legend_border_width>1</legend_border_width>
+        <legend_horizontal_alignment>center</legend_horizontal_alignment>
+        <legend_items_left_align>false</legend_items_left_align>
+        <legend_vertical_alignment>bottom</legend_vertical_alignment>
+        <list_ui_view/>
+        <location_field/>
+        <lower_limit/>
+        <map/>
+        <map_source/>
+        <orderby_list/>
+        <other_threshold>-1</other_threshold>
+        <others>yes</others>
+        <page_hdrftr/>
+        <pivot_expanded>true</pivot_expanded>
+        <report_drilldown/>
+        <report_source/>
+        <roles>public</roles>
+        <row/>
+        <sc_groupby_item_id/>
+        <sc_groupby_variable_id/>
+        <sc_stackby_item_id/>
+        <sc_stackby_variable_id/>
+        <score_color/>
+        <series_name_text/>
+        <set_color>chart_colors</set_color>
+        <show_chart_border>false</show_chart_border>
+        <show_chart_data_label>false</show_chart_data_label>
+        <show_chart_title>report</show_chart_title>
+        <show_chart_total>false</show_chart_total>
+        <show_data_label_position_middle>false</show_data_label_position_middle>
+        <show_empty>false</show_empty>
+        <show_geographical_label>false</show_geographical_label>
+        <show_legend>true</show_legend>
+        <show_legend_border>false</show_legend_border>
+        <show_marker>false</show_marker>
+        <show_zero>false</show_zero>
+        <source_type/>
+        <start_time/>
+        <style_config/>
+        <sumfield>run_time</sumfield>
+        <sys_class_name>sys_report</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-12 10:39:35</sys_created_on>
+        <sys_id>0bdcb2592f5220101fdc52172799b6cf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Test suite aging report</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_report_0bdcb2592f5220101fdc52172799b6cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-12 10:39:35</sys_updated_on>
+        <table>sys_atf_test_result</table>
+        <title>Test suite aging report</title>
+        <title_horizontal_alignment>center</title_horizontal_alignment>
+        <title_vertical_alignment>top</title_vertical_alignment>
+        <to/>
+        <trend_field>status</trend_field>
+        <type>bar</type>
+        <upper_limit/>
+        <use_color_heatmap>false</use_color_heatmap>
+        <use_null_in_trend>false</use_null_in_trend>
+        <user/>
+        <x_axis_allow_decimals>true</x_axis_allow_decimals>
+        <x_axis_display_grid>false</x_axis_display_grid>
+        <x_axis_grid_color/>
+        <x_axis_grid_dotted>false</x_axis_grid_dotted>
+        <x_axis_grid_width>0</x_axis_grid_width>
+        <x_axis_label_bold>false</x_axis_label_bold>
+        <x_axis_label_color/>
+        <x_axis_label_size>11</x_axis_label_size>
+        <x_axis_label_tilt>0</x_axis_label_tilt>
+        <x_axis_opposite>false</x_axis_opposite>
+        <x_axis_title>Test suite results</x_axis_title>
+        <x_axis_title_bold>true</x_axis_title_bold>
+        <x_axis_title_color/>
+        <x_axis_title_size>12</x_axis_title_size>
+        <y_axis_allow_decimals>true</y_axis_allow_decimals>
+        <y_axis_display_grid>true</y_axis_display_grid>
+        <y_axis_from/>
+        <y_axis_grid_color/>
+        <y_axis_grid_dotted>false</y_axis_grid_dotted>
+        <y_axis_grid_width>1</y_axis_grid_width>
+        <y_axis_label_bold>false</y_axis_label_bold>
+        <y_axis_label_color/>
+        <y_axis_label_size>11</y_axis_label_size>
+        <y_axis_label_tilt>0</y_axis_label_tilt>
+        <y_axis_opposite>false</y_axis_opposite>
+        <y_axis_title/>
+        <y_axis_title_bold>true</y_axis_title_bold>
+        <y_axis_title_color/>
+        <y_axis_title_size>12</y_axis_title_size>
+        <y_axis_to/>
+    </sys_report>
+</record_update>

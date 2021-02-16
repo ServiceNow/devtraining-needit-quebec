@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_schedule">
+    <sys_atf_schedule action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <description>This schedule will perform the following actions:
+
+Run suite 'My New Test Suite_parent' on a system with this configuration:
+Any browser on any version
+Any operating system on any version</description>
+        <entered_time/>
+        <name>Demo schedule</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2021-02-15 17:12:24</run_start>
+        <run_time>1970-01-02 02:26:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[new global.ScheduledTestProcessor().executeScheduledSuites('6683f3d62f1220101fdc52172799b6ec');]]></script>
+        <sys_class_name>sys_atf_schedule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 17:14:47</sys_created_on>
+        <sys_id>6683f3d62f1220101fdc52172799b6ec</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Demo schedule</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_schedule_6683f3d62f1220101fdc52172799b6ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 17:25:06</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sys_atf_schedule>
+</record_update>
