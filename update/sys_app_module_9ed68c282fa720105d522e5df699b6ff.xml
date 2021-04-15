@@ -19,14 +19,14 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_58872_needit.needit_user</roles>
+        <roles>x_58872_needit.needit_user,x_58872_needit.admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-04-12 16:49:27</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9ed68c282fa720105d522e5df699b6ff</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>My NeedIt Requests</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_app_module_9ed68c282fa720105d522e5df699b6ff</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-12 16:49:27</sys_updated_on>
+        <sys_updated_on>2021-04-15 10:53:26</sys_updated_on>
         <timeline_page/>
         <title>My NeedIt Requests</title>
         <uncancelable>false</uncancelable>
