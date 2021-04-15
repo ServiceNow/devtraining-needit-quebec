@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="DELETE">
+        <category display_value=" NeedIt Properties">8688c2892fe360105d522e5df699b68a</category>
+        <order>100</order>
+        <property display_value="auxdb.db.name" name="auxdb.db.name">50a9e64507331000be32a04ff1021e4e</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-14 15:47:38</sys_created_on>
+        <sys_id>125c0ec92fe360105d522e5df699b650</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>auxdb.db.name. NeedIt Properties</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_125c0ec92fe360105d522e5df699b650</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-14 15:47:38</sys_updated_on>
+    </sys_properties_category_m2m>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>e03b99e7db9397447e55d5b0cf96192e</instance_id>
+        <instance_name>dev66096</instance_name>
+        <name>sys_properties_category_m2m_125c0ec92fe360105d522e5df699b650</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value=" NeedIt Properties">8688c2892fe360105d522e5df699b68a</category><order>100</order><property display_value="auxdb.db.name" name="auxdb.db.name">50a9e64507331000be32a04ff1021e4e</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-14 15:47:38</sys_created_on><sys_id>125c0ec92fe360105d522e5df699b650</sys_id><sys_mod_count>0</sys_mod_count><sys_name>auxdb.db.name. NeedIt Properties</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_properties_category_m2m_125c0ec92fe360105d522e5df699b650</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-14 15:47:38</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+        <payload_hash>-1331343224</payload_hash>
+        <record_name>auxdb.db.name. NeedIt Properties</record_name>
+        <reverted_from/>
+        <source>5fddd3d72f5720105d522e5df699b6ec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-14 15:47:38</sys_created_on>
+        <sys_id>9a5c0ec92fe360105d522e5df699b652</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178d1110c300000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-14 15:47:38</sys_updated_on>
+        <type>Category Property</type>
+        <update_guid>d25c0ec96ce3601073dd3bfc60dd9652</update_guid>
+        <update_guid_history>d25c0ec96ce3601073dd3bfc60dd9652:-1331343224</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-14 15:50:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties_category_m2m">sys_properties_category_m2m</sys_db_object>
+        <sys_id>03a6cfb078884b12808e5f7982e261e1</sys_id>
+        <sys_metadata>125c0ec92fe360105d522e5df699b650</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>auxdb.db.name. NeedIt Properties</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_properties_category_m2m_125c0ec92fe360105d522e5df699b650</sys_update_name>
+        <sys_update_version display_value="sys_properties_category_m2m_125c0ec92fe360105d522e5df699b650">9a5c0ec92fe360105d522e5df699b652</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-14 15:50:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
