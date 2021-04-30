@@ -4,11 +4,11 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description>Only display What needed choices that match the Request type value.</description>
-        <field>active</field>
+        <field>u_request_type</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>NeedIt Request Type Options</name>
+        <name>NeedIt Request Type Options Client Scrip</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
 		if ( newValue == '') {
@@ -52,19 +52,19 @@
 	}]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-04-29 16:06:42</sys_created_on>
+        <sys_created_on>2021-04-29 18:08:35</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>466fdb7d07332010885eff208c1ed07a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>NeedIt Request Type Options</sys_name>
+        <sys_id>2f0c737507b32010885eff208c1ed016</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Request Type Options Client Scrip</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_script_client_466fdb7d07332010885eff208c1ed07a</sys_update_name>
+        <sys_update_name>sys_script_client_2f0c737507b32010885eff208c1ed016</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-29 16:17:11</sys_updated_on>
+        <sys_updated_on>2021-04-29 18:08:35</sys_updated_on>
         <table>x_58872_needit_needit</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
