@@ -22,7 +22,7 @@
     </sys_ui_policy_action>
     <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
-        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <application display_value="NeedIt-for client scripting">6ead8e780f603200cd674f8ce1050ed1</application>
         <file_path/>
         <instance_id>88c4edfd6fd335404c327b2f5d3ee45e</instance_id>
         <instance_name>dev15221</instance_name>
@@ -55,10 +55,10 @@
         <sys_metadata>1a7f83862f372010134b56e62799b67c</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>u_other</sys_name>
-        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_package display_value="NeedIt-for client scripting" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_parent display_value="NeedIt show or hide Other field">6cec07062f372010134b56e62799b668</sys_parent>
         <sys_policy/>
-        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope display_value="NeedIt-for client scripting">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
         <sys_update_name>sys_ui_policy_action_1a7f83862f372010134b56e62799b67c</sys_update_name>
         <sys_update_version display_value="sys_ui_policy_action_1a7f83862f372010134b56e62799b67c">96efcf462f372010134b56e62799b6ee</sys_update_version>
