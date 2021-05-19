@@ -2,10 +2,13 @@
     <sysauto_script action="INSERT_OR_UPDATE">
         <active>true</active>
         <business_calendar/>
+        <can_iterate>false</can_iterate>
         <condition/>
         <conditional>false</conditional>
         <entered_time/>
         <name>Find NeedIt Tasks Due Soon</name>
+        <offset/>
+        <offset_type/>
         <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
@@ -34,6 +37,8 @@ while(dueSoon.next()){
 
 
 ]]></script>
+        <source_filter/>
+        <source_table/>
         <sys_class_name>sysauto_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-04-11 00:00:44</sys_created_on>

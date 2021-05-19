@@ -2,10 +2,13 @@
     <sysauto_script action="INSERT_OR_UPDATE">
         <active>true</active>
         <business_calendar/>
+        <can_iterate>false</can_iterate>
         <condition/>
         <conditional>false</conditional>
         <entered_time/>
         <name>Make Long Overdue NeedIt Tasks Closed Incomplete</name>
+        <offset/>
+        <offset_type/>
         <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
@@ -15,6 +18,8 @@
         <run_time>1970-01-01 08:05:00</run_time>
         <run_type>daily</run_type>
         <script/>
+        <source_filter/>
+        <source_table/>
         <sys_class_name>sysauto_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-04-19 03:55:41</sys_created_on>
