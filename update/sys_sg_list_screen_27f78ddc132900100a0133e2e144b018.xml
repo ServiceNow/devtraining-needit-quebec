@@ -3,7 +3,9 @@
         <available_offline>false</available_offline>
         <description>Active NeedIt requests for next quarter</description>
         <dynamic_prefetch_count/>
+        <empty_state/>
         <fetch_type>on_demand</fetch_type>
+        <filter/>
         <hide_filters>false</hide_filters>
         <hide_screen_name>false</hide_screen_name>
         <icon display_value="icon-File">5ff78ddc132900100a0133e2e144b013</icon>

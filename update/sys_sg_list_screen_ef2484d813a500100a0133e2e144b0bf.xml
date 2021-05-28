@@ -3,7 +3,9 @@
         <available_offline>false</available_offline>
         <description>View my open NeedIt records</description>
         <dynamic_prefetch_count/>
+        <empty_state/>
         <fetch_type>on_demand</fetch_type>
+        <filter/>
         <hide_filters>false</hide_filters>
         <hide_screen_name>false</hide_screen_name>
         <icon display_value="icon-File">1f2484d813a500100a0133e2e144b0bb</icon>

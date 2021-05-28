@@ -18,5 +18,7 @@
         <sys_update_name>sys_sg_master_item_ab240cd813a500100a0133e2e144b0e1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-12-02 00:14:01</sys_updated_on>
+        <use_view_config>false</use_view_config>
+        <view_config/>
     </sys_sg_master_item>
 </record_update>

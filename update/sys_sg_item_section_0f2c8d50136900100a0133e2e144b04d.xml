@@ -6,6 +6,7 @@
         <display_title>true</display_title>
         <hide_header>false</hide_header>
         <hide_section_if_empty>false</hide_section_if_empty>
+        <hide_see_all_button>false</hide_see_all_button>
         <max_items_display_count>15</max_items_display_count>
         <orientation>horizontal</orientation>
         <required_roles/>

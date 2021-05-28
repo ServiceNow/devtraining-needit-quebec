@@ -2,6 +2,8 @@
     <sys_sg_form_segment action="INSERT_OR_UPDATE">
         <embedded_screen display_value="Details">67240cd813a500100a0133e2e144b0dc</embedded_screen>
         <form display_value="My Open NeedIt Requests">a3240cd813a500100a0133e2e144b0da</form>
+        <header_view_config/>
+        <is_sticky>false</is_sticky>
         <order>10</order>
         <sys_class_name>sys_sg_form_segment</sys_class_name>
         <sys_created_by>admin</sys_created_by>

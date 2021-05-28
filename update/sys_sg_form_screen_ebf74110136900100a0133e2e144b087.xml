@@ -4,13 +4,18 @@
         <data_item/>
         <description/>
         <dynamic_prefetch_count/>
+        <empty_state/>
         <fetch_type>not_required</fetch_type>
+        <filter/>
         <hide_filters>false</hide_filters>
         <hide_screen_name>false</hide_screen_name>
         <icon display_value="NeedIt Next Quarter Icon">67f74110136900100a0133e2e144b083</icon>
         <item_view display_value="NeedIt Next Quarter Header Item View">2bf74110136900100a0133e2e144b085</item_view>
         <name>NeedIt Next Quarter</name>
+        <override_context_with_data_item>false</override_context_with_data_item>
         <roles_override/>
+        <segments_height/>
+        <segments_min_width/>
         <sys_class_name>sys_sg_form_screen</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-02 00:25:40</sys_created_on>
@@ -24,6 +29,8 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-12-02 00:26:29</sys_updated_on>
         <table>x_58872_needit_needit</table>
+        <use_view_config>false</use_view_config>
+        <view_config/>
     </sys_sg_form_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=ebf74110136900100a0133e2e144b087"/>
 </record_update>
