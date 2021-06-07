@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Request_test" max_length="40" name="x_58872_needit_request" type="collection">
+        <element label="EME File Upload" max_length="40" name="u_file_attachment_1" type="file_attachment"/>
+    </element>
+</database>
