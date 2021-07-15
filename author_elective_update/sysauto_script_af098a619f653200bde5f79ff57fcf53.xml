@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="DELETE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>NeedIt Count Problem Records</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2017-03-16 21:26:33</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[// Create a GlideRecord object for the Problem table
+var gr = new GlideRecord('problem');
+// Query the problem table and return all records in the GlideRecord object
+gr.query();
+// Log the number of records in the Problem table
+gs.info("Total records in Problem table = " + gr.getRowCount());]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-16 21:29:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>af098a619f653200bde5f79ff57fcf53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Count Problem Records</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysauto_script_af098a619f653200bde5f79ff57fcf53</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-16 21:29:13</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>9d994c81db8fe850e03ad7c8f4961942</instance_id>
+        <instance_name>dev107441</instance_name>
+        <name>sysauto_script_af098a619f653200bde5f79ff57fcf53</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sysauto_script"&gt;
+    &lt;sysauto_script action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;condition/&gt;
+        &lt;conditional&gt;false&lt;/conditional&gt;
+        &lt;name&gt;NeedIt Count Problem Records&lt;/name&gt;
+        &lt;run_as display_value="System Administrator"&gt;6816f79cc0a8016401c5a33be04be441&lt;/run_as&gt;
+        &lt;run_as_tz/&gt;
+        &lt;run_dayofmonth&gt;1&lt;/run_dayofmonth&gt;
+        &lt;run_dayofweek&gt;1&lt;/run_dayofweek&gt;
+        &lt;run_period/&gt;
+        &lt;run_start&gt;2017-03-16 21:26:33&lt;/run_start&gt;
+        &lt;run_time&gt;1970-01-01 08:00:00&lt;/run_time&gt;
+        &lt;run_type&gt;on_demand&lt;/run_type&gt;
+        &lt;script&gt;&lt;![CDATA[// Create a GlideRecord object for the Problem table
+var gr = new GlideRecord('problem');
+// Query the problem table and return all records in the GlideRecord object
+gr.query();
+// Log the number of records in the Problem table
+gs.info("Total records in Problem table = " + gr.getRowCount());]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sysauto_script&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2017-03-16 21:29:13&lt;/sys_created_on&gt;
+        &lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;
+        &lt;sys_id&gt;af098a619f653200bde5f79ff57fcf53&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;NeedIt Count Problem Records&lt;/sys_name&gt;
+        &lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;
+        &lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sysauto_script_af098a619f653200bde5f79ff57fcf53&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2017-03-16 21:29:13&lt;/sys_updated_on&gt;
+        &lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;
+    &lt;/sysauto_script&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>2070281234</payload_hash>
+        <record_name>NeedIt Count Problem Records</record_name>
+        <reverted_from/>
+        <source>3de6df921bd13010157955f0604bcb37</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-14 18:15:45</sys_created_on>
+        <sys_id>9be653d21bd13010157955f0604bcb7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17aa63b5b4b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-14 18:15:45</sys_updated_on>
+        <type>Scheduled Script Execution</type>
+        <update_guid>5be653d274d130108441596321517e7f</update_guid>
+        <update_guid_history>5be653d274d130108441596321517e7f:2070281234</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-15 15:25:54</sys_created_on>
+        <sys_db_object display_value="" name="sysauto_script">sysauto_script</sys_db_object>
+        <sys_id>57677385c82b422ab10ed3f58ba86c71</sys_id>
+        <sys_metadata>af098a619f653200bde5f79ff57fcf53</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Count Problem Records</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sysauto_script_af098a619f653200bde5f79ff57fcf53</sys_update_name>
+        <sys_update_version display_value="sysauto_script_af098a619f653200bde5f79ff57fcf53">9be653d21bd13010157955f0604bcb7f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-15 15:25:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
