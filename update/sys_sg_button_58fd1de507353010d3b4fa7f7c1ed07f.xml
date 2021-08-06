@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button">
+    <sys_sg_button action="INSERT_OR_UPDATE">
+        <acknowledgement_confirm_label>I Agree</acknowledgement_confirm_label>
+        <allow_images_upload>false</allow_images_upload>
+        <auto_jump_to_destination>false</auto_jump_to_destination>
+        <auto_redirection>false</auto_redirection>
+        <button_table_field_name/>
+        <cancel_label>No</cancel_label>
+        <condition/>
+        <condition_script/>
+        <condition_type>declarative</condition_type>
+        <confirm_label>Yes</confirm_label>
+        <confirmation_message>Are you sur you want to update the Short Description?</confirmation_message>
+        <context>record</context>
+        <description>Update the Short Description field value for a NeedIt record.</description>
+        <destination_alp/>
+        <destination_screen/>
+        <destination_type>screen</destination_type>
+        <external_browser>false</external_browser>
+        <failure_message>The Short description was not updated.</failure_message>
+        <field_name/>
+        <hide_buttons/>
+        <hide_fields/>
+        <highlighted_icons/>
+        <jump_to_previous>false</jump_to_previous>
+        <jump_to_screen>false</jump_to_screen>
+        <link_label/>
+        <link_url/>
+        <mail_address/>
+        <mail_content/>
+        <mail_subject/>
+        <name>Update Short Description</name>
+        <offline>false</offline>
+        <offline_template_field/>
+        <offline_template_field_table/>
+        <phone_number/>
+        <phone_type>cellular</phone_type>
+        <preconditions>none</preconditions>
+        <rating_span_count>2</rating_span_count>
+        <refresh_screen_after_action>false</refresh_screen_after_action>
+        <relative_url>true</relative_url>
+        <roles/>
+        <save_signature_before_action_execution>false</save_signature_before_action_execution>
+        <select_current_record>false</select_current_record>
+        <show_acknowledgement>false</show_acknowledgement>
+        <show_buttons/>
+        <show_confirmation>true</show_confirmation>
+        <show_fields/>
+        <show_refresh_on_previous>false</show_refresh_on_previous>
+        <show_signature>false</show_signature>
+        <sms/>
+        <success_message>The new Short Description for {{number}} is {{short_description}}.</success_message>
+        <sys_class_name>sys_sg_button</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-05 22:06:46</sys_created_on>
+        <sys_id>58fd1de507353010d3b4fa7f7c1ed07f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Short Description</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_sg_button_58fd1de507353010d3b4fa7f7c1ed07f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-05 22:06:46</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <take_value_from_field>false</take_value_from_field>
+        <type>write_back</type>
+        <unhighlighted_icons/>
+        <use_overlay>false</use_overlay>
+        <write_back_action_item display_value="Update NeedIt Short Description">d0b555a107353010d3b4fa7f7c1ed014</write_back_action_item>
+        <zombified_screens/>
+    </sys_sg_button>
+    <sys_translated_text action="delete_multiple" query="documentkey=58fd1de507353010d3b4fa7f7c1ed07f"/>
+</record_update>

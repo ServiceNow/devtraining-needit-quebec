@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="DELETE">
+        <condition_type>declarative</condition_type>
+        <description>Open NeedIt records assigned to user</description>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>Specified Requestor</name>
+        <query_condition table="x_58872_needit_needit">active=true^u_requested_for.name={{Req for}}<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="u_requested_for.name" goto="false" newquery="false" operator="=" or="false" value="{{Req for}}"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-05 02:16:12</sys_created_on>
+        <sys_id>714e4d1507b53010d3b4fa7f7c1ed0c3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Specified Requestor</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_sg_data_item_714e4d1507b53010d3b4fa7f7c1ed0c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-05 02:17:32</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="DELETE" query="documentkey=714e4d1507b53010d3b4fa7f7c1ed0c3"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>4e9baa53dbc50450b847ac44d49619ab</instance_id>
+        <instance_name>dev94806</instance_name>
+        <name>sys_sg_data_item_714e4d1507b53010d3b4fa7f7c1ed0c3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item"><sys_sg_data_item action="INSERT_OR_UPDATE"><condition_type>declarative</condition_type><description>Open NeedIt records assigned to user</description><group_by/><instance_relative_url_qc/><name>Specified Requestor</name><query_condition table="x_58872_needit_needit">active=true^u_requested_for.name={{Req for}}<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/><item endquery="false" field="u_requested_for.name" goto="false" newquery="false" operator="=" or="false" value="{{Req for}}"/></query_condition><query_condition_script/><sys_class_name>sys_sg_data_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-05 02:16:12</sys_created_on><sys_id>714e4d1507b53010d3b4fa7f7c1ed0c3</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Specified Requestor</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_sg_data_item_714e4d1507b53010d3b4fa7f7c1ed0c3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-05 02:17:32</sys_updated_on><table>x_58872_needit_needit</table></sys_sg_data_item><sys_translated_text action="delete_multiple" query="documentkey=714e4d1507b53010d3b4fa7f7c1ed0c3"/></record_update>]]></payload>
+        <payload_hash>-2095166567</payload_hash>
+        <record_name>Specified Requestor</record_name>
+        <reverted_from/>
+        <source>ad4ac7a207653010d3b4fa7f7c1ed059</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-05 02:17:32</sys_created_on>
+        <sys_id>d99e899507b53010d3b4fa7f7c1ed049</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b1419fb190000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-05 02:17:32</sys_updated_on>
+        <type>Data Item</type>
+        <update_guid>159e8995c0b5301039010dbb06f67049</update_guid>
+        <update_guid_history>159e8995c0b5301039010dbb06f67049:-2095166567,115ec595edb5301056309e16e7ac8153:-686902624,714e8595a0b53010a185aa23d00358cb:-1514436741</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-05 02:19:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_data_item">sys_sg_data_item</sys_db_object>
+        <sys_id>03ddb237a6a843c28573c044eb99aa61</sys_id>
+        <sys_metadata>714e4d1507b53010d3b4fa7f7c1ed0c3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Specified Requestor</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_sg_data_item_714e4d1507b53010d3b4fa7f7c1ed0c3</sys_update_name>
+        <sys_update_version display_value="sys_sg_data_item_714e4d1507b53010d3b4fa7f7c1ed0c3">d99e899507b53010d3b4fa7f7c1ed049</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-05 02:19:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
