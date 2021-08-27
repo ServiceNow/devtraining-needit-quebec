@@ -2,10 +2,13 @@
     <sys_report action="INSERT_OR_UPDATE">
         <additional_groupby>u_requested_for,u_what_needed</additional_groupby>
         <aggregate>COUNT</aggregate>
+        <aggregation_source/>
         <allow_data_label_overlap>false</allow_data_label_overlap>
+        <apply_alias>false</apply_alias>
         <axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color>
         <axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color>
         <bar_unstack>false</bar_unstack>
+        <calendar/>
         <chart_background_color/>
         <chart_border_color/>
         <chart_border_radius>0</chart_border_radius>
@@ -45,6 +48,7 @@
         <field>u_request_type</field>
         <field_list/>
         <filter/>
+        <formatting_configuration/>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
         <gauge_autoscale>true</gauge_autoscale>
