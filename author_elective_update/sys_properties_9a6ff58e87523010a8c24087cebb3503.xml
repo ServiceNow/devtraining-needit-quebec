@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices>2,5,7,10</choices>
+        <description/>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_58872_needit.DaysNotice</name>
+        <read_roles/>
+        <suffix>DaysNotice</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-01 10:19:32</sys_created_on>
+        <sys_id>9a6ff58e87523010a8c24087cebb3503</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit.DaysNotice</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_properties_9a6ff58e87523010a8c24087cebb3503</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-01 10:19:32</sys_updated_on>
+        <type>string</type>
+        <value/>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=9a6ff58e87523010a8c24087cebb3503"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>8d484070db2edb8089535d00cf961955</instance_id>
+        <instance_name>dev60529</instance_name>
+        <name>sys_properties_9a6ff58e87523010a8c24087cebb3503</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices>2,5,7,10</choices><description/><ignore_cache>false</ignore_cache><is_private>false</is_private><name>x_58872_needit.DaysNotice</name><read_roles/><suffix>DaysNotice</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-01 10:19:32</sys_created_on><sys_id>9a6ff58e87523010a8c24087cebb3503</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_58872_needit.DaysNotice</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_properties_9a6ff58e87523010a8c24087cebb3503</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-01 10:19:32</sys_updated_on><type>string</type><value/><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=9a6ff58e87523010a8c24087cebb3503"/></record_update>]]></payload>
+        <payload_hash>-644189944</payload_hash>
+        <record_name>x_58872_needit.DaysNotice</record_name>
+        <reverted_from/>
+        <source>063c03cf8769f010a8c24087cebb359b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-01 10:19:34</sys_created_on>
+        <sys_id>e1df3d8e87523010a8c24087cebb35e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ba0df01620000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-01 10:19:34</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>a5df3d8e60523010b393ba3260231ce4</update_guid>
+        <update_guid_history>a5df3d8e60523010b393ba3260231ce4:-644189944</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-01 13:25:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>2f6f3be75529405894665205d6700144</sys_id>
+        <sys_metadata>9a6ff58e87523010a8c24087cebb3503</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit.DaysNotice</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_properties_9a6ff58e87523010a8c24087cebb3503</sys_update_name>
+        <sys_update_version display_value="sys_properties_9a6ff58e87523010a8c24087cebb3503">e1df3d8e87523010a8c24087cebb35e5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-01 13:25:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

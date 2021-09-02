@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Special Handling Notes">3a4d36f1c303020095ccd02422d3aee9</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Properties</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>900</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>spacialDaysProperties</query>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-01 10:47:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8585cec287923010a8c24087cebb3527</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Properties</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_app_module_8585cec287923010a8c24087cebb3527</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-01 10:47:19</sys_updated_on>
+        <timeline_page/>
+        <title>Properties</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>8d484070db2edb8089535d00cf961955</instance_id>
+        <instance_name>dev60529</instance_name>
+        <name>sys_app_module_8585cec287923010a8c24087cebb3527</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Special Handling Notes">3a4d36f1c303020095ccd02422d3aee9</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>DIRECT</link_type><map_page/><mobile_title>Properties</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>900</order><override_menu_roles>false</override_menu_roles><query>spacialDaysProperties</query><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-01 10:47:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8585cec287923010a8c24087cebb3527</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Properties</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_app_module_8585cec287923010a8c24087cebb3527</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-01 10:47:19</sys_updated_on><timeline_page/><title>Properties</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1641237731</payload_hash>
+        <record_name>Properties</record_name>
+        <reverted_from/>
+        <source>063c03cf8769f010a8c24087cebb359b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-01 10:47:19</sys_created_on>
+        <sys_id>0c36020687923010a8c24087cebb3517</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ba0f868ee0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-01 10:47:19</sys_updated_on>
+        <type>Module</type>
+        <update_guid>44360206219230106e790a9192e34317</update_guid>
+        <update_guid_history>44360206219230106e790a9192e34317:-1641237731</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Properties">7a7c620a87163010a8c24087cebb3525</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-01 13:34:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>1694e3e0005d47cf8492224426f5e2e9</sys_id>
+        <sys_metadata>8585cec287923010a8c24087cebb3527</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Properties</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_app_module_8585cec287923010a8c24087cebb3527</sys_update_name>
+        <sys_update_version display_value="sys_app_module_8585cec287923010a8c24087cebb3527">0c36020687923010a8c24087cebb3517</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-01 13:34:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
