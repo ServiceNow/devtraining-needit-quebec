@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="new_field_1" label="New field 1" language="en" table="x_58872_needit_needit">
+    <sys_documentation element="u_other" label="Other" language="en" table="x_58872_needit_needit">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>new_field_1</element>
+            <element>u_other</element>
             <help/>
             <hint/>
-            <label>New field 1</label>
+            <label>Other</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
-            <plural>New field 1s</plural>
+            <plural>Others</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-01-26 00:53:30</sys_created_on>
-            <sys_id>f2af66f12f923010a96b70682799b660</sys_id>
+            <sys_created_on>2021-09-02 18:47:59</sys_created_on>
+            <sys_id>2acdb8262fd23010a96b70682799b6cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>New field 1</sys_name>
+            <sys_name>Other</sys_name>
             <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
             <sys_policy/>
             <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-            <sys_update_name>sys_documentation_x_58872_needit_needit_new_field_1_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_58872_needit_needit_u_other_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-01-26 00:53:30</sys_updated_on>
+            <sys_updated_on>2021-09-02 18:47:59</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
