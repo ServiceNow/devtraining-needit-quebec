@@ -5,7 +5,7 @@
         <action_delete>false</action_delete>
         <action_insert>true</action_insert>
         <action_query>false</action_query>
-        <action_update>false</action_update>
+        <action_update>true</action_update>
         <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
@@ -18,7 +18,7 @@
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>NeedIt When needed field date</name>
+        <name>Email Address Syntax Validate</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -29,35 +29,33 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
 
-    // Instantiate the NeedItUtils class.  Call the isDatePast method and pass 
-    // the u_when_needed value.
-    var niutils = new NeedItUtils();
-    var isPast = niutils.isDatePast(current.u_when_needed);
-
-    // If the isDatePast method returns true, the date is in the past.
-    if (isPast == true) {
-        gs.addErrorMessage("When needed date cannot be in the past.  Your request has not been saved to the database.");
+    // Pass the Requested for email to the Script Include.  Store the return
+    // value from the Script Include in the isEmail variable
+    var isEmail = validateEmailAddress(current.u_requested_for_email);
+    // If isEmail is false (email address syntax is not valid) do not save
+    // the record.  Write an error message to the screen.
+    if (isEmail == false) {
+        gs.addErrorMessage(current.u_requested_for_email + " is not a valid email address.  You must provide a valid email address.");
         current.setAbortAction(true);
     }
-
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-10 23:52:28</sys_created_on>
+        <sys_created_on>2021-10-15 03:34:33</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>818fa9362f43301028663996f699b69d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>NeedIt When needed field date</sys_name>
+        <sys_id>5357cf442f93301028663996f699b639</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Email Address Syntax Validate</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_script_818fa9362f43301028663996f699b69d</sys_update_name>
+        <sys_update_name>sys_script_5357cf442f93301028663996f699b639</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-18 04:17:53</sys_updated_on>
+        <sys_updated_on>2021-10-15 03:36:05</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=818fa9362f43301028663996f699b69d"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=5357cf442f93301028663996f699b639"/>
 </record_update>
