@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>Find Overdue NeedIt Task</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Anna Fularz">a2d73d91db7a4010a367ff371d961960</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2021-09-27 12:42:01</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[// Get today's time and date
+  var rightNow = new GlideDateTime();
+  
+  // Query the database for NeedIt Task records with Due date field values older
+  // than the current time.  Only return NeedIt Task records that do not have
+  // a State field value of Closed Complete.
+  var overdueNITasks = new GlideRecord('x_58872_needit_needit_task');
+  overdueNITasks.addQuery('due_date','<=',rightNow);
+  overdueNITasks.addQuery('state','!=',3);
+  
+  overdueNITasks.query();
+  // Write a log message for each overdue NeedIt Task Record
+  while(overdueNITasks.next()){
+    gs.info("Overdue NeedIt Task record = " + overdueNITasks.number);
+	gs.eventQueue('x_58872_needit.overdueNeedItTask', overdueNITasks, overdueNITasks.number, gs.getUserName());
+  }]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>af956379</sys_created_by>
+        <sys_created_on>2021-09-27 12:50:26</sys_created_on>
+        <sys_id>f1c910a21b36bc10a76243f0b24bcb1b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Find Overdue NeedIt Task</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysauto_script_f1c910a21b36bc10a76243f0b24bcb1b</sys_update_name>
+        <sys_updated_by>af956379</sys_updated_by>
+        <sys_updated_on>2021-12-09 09:31:59</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>
