@@ -1,0 +1,44 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run a one-line script
+        run: echo "Hello, world!"
+      - name: Run a multi-line script
+        run: |
+          echo "Add other actions to build,"
+          echo "test, and deploy your project."
+
+  ServiceNowDevOpsChange:
+    needs: build        # waits for build job to finish
+    runs-on: ubuntu-latest
+    name: "ServiceNow DevOps Change"
+    steps:
+      - name: ServiceNow Change
+        uses: ServiceNow/servicenow-devops-change@v6.1.0
+        with:
+          devops-integration-user-name: ${{ secrets.SN_DEVOPS_USER }}
+          devops-integration-user-password: ${{ secrets.SN_DEVOPS_PASSWORD }}
+          tool-id: ${{ secrets.SN_ORCHESTRATION_TOOL_ID }}
+          instance-url: ${{ secrets.SN_INSTANCE_URL }}
+          context-github: ${{ toJSON(github) }}
+          job-name: "ServiceNow DevOps Change"
+          change-request: >
+            {"attributes":{"requested_by":{"name":"Test User"},
+            "assignment_group":{"name":"Change Approval Team"},
+            "priority":"2",
+            "comments":"This is a sample pipeline script to be added in your change step",
+            "work_notes":"Update this to work_notes",
+            "start_date":"2023-09-07 11:59:59",
+            "end_date":"2023-09-09 11:59:59"}}
