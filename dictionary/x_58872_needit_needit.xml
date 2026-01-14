@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="52cb1fa397de32d0307db390f053aff0" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="When needed" mandatory="true" max_length="40" name="u_when_needed_3" type="glide_date_time"/>
+        <element label="New field 2" max_length="40" name="new_field_2" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="legal1" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Your Department Coices 1" sequence="4" value="your_coices1"/>
+                <element inactive_on_update="false" label="Legal 2" sequence="3" value="legal2"/>
+                <element inactive_on_update="false" label="human resources 1" sequence="0" value="hr1"/>
+                <element inactive_on_update="false" label="Legal 1" sequence="2" value="legal1"/>
+                <element inactive_on_update="false" label="human resources 2" sequence="1" value="hr2"/>
+                <element inactive_on_update="false" label="Your Department Coices 1" sequence="5" value="your_coices2"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element choice="1" label="New field 3" max_length="40" name="u_new_field_3" type="integer">
+            <choice/>
+        </element>
+        <element label="New Due Date" max_length="40" name="u_due_date_1" type="due_date"/>
+        <element label="New field 1" max_length="40" name="new_field_1" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="legal" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="your department Choose" sequence="3" value="your_choose"/>
+                <element inactive_on_update="false" label="Legal" sequence="2" value="legal"/>
+                <element inactive_on_update="false" label="Facilities" sequence="1" value="facilities"/>
+                <element inactive_on_update="false" label="Human Resources" sequence="0" value="hr"/>
+            </choice>
+        </element>
+    </element>
+</database>

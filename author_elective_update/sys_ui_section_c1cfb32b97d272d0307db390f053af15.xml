@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Statiatics" section_id="c1cfb32b97d272d0307db390f053af15" sys_domain="global" table="x_58872_needit_needit" version="3" view="miyakoshi">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_at</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-14 04:58:37</sys_created_on>
+            <sys_id>81cfb32b97d272d0307db390f053af53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Statiatics" display_value="Statiatics" name="x_58872_needit_needit" sys_domain="global" view="05cf732b97d272d0307db390f053aff0">c1cfb32b97d272d0307db390f053af15</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-14 04:58:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_updated_on</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-14 04:58:37</sys_created_on>
+            <sys_id>4dcfb32b97d272d0307db390f053af53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Statiatics" display_value="Statiatics" name="x_58872_needit_needit" sys_domain="global" view="05cf732b97d272d0307db390f053aff0">c1cfb32b97d272d0307db390f053af15</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-14 04:58:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-14 04:58:37</sys_created_on>
+            <sys_id>09cfb32b97d272d0307db390f053af54</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Statiatics" display_value="Statiatics" name="x_58872_needit_needit" sys_domain="global" view="05cf732b97d272d0307db390f053aff0">c1cfb32b97d272d0307db390f053af15</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-14 04:58:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-14 04:58:37</sys_created_on>
+            <sys_id>c1cfb32b97d272d0307db390f053af55</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Statiatics" display_value="Statiatics" name="x_58872_needit_needit" sys_domain="global" view="05cf732b97d272d0307db390f053aff0">c1cfb32b97d272d0307db390f053af15</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-14 04:58:37</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-14 04:58:37</sys_created_on>
+            <sys_id>8dcfb32b97d272d0307db390f053af55</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Statiatics" display_value="Statiatics" name="x_58872_needit_needit" sys_domain="global" view="05cf732b97d272d0307db390f053aff0">c1cfb32b97d272d0307db390f053af15</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-14 04:58:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_updated_by</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-14 04:58:37</sys_created_on>
+            <sys_id>49cfb32b97d272d0307db390f053af56</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Statiatics" display_value="Statiatics" name="x_58872_needit_needit" sys_domain="global" view="05cf732b97d272d0307db390f053aff0">c1cfb32b97d272d0307db390f053af15</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-14 04:58:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_by</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-14 04:58:37</sys_created_on>
+            <sys_id>05cfb32b97d272d0307db390f053af57</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Statiatics" display_value="Statiatics" name="x_58872_needit_needit" sys_domain="global" view="05cf732b97d272d0307db390f053aff0">c1cfb32b97d272d0307db390f053af15</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-14 04:58:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-14 04:58:37</sys_created_on>
+            <sys_id>cdcfb32b97d272d0307db390f053af57</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Statiatics" display_value="Statiatics" name="x_58872_needit_needit" sys_domain="global" view="05cf732b97d272d0307db390f053aff0">c1cfb32b97d272d0307db390f053af15</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-14 04:58:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Statiatics</caption>
+            <header>false</header>
+            <name>x_58872_needit_needit</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-14 04:58:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c1cfb32b97d272d0307db390f053af15</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_58872_needit_needit</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_ui_section_c1cfb32b97d272d0307db390f053af15</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-14 04:58:36</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="miyakoshi" name="miyakoshi">05cf732b97d272d0307db390f053aff0</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>7d8fb8743b5caed4986d048aa4e45ac7</instance_id>
+        <instance_name>dev299297</instance_name>
+        <name>sys_ui_section_c1cfb32b97d272d0307db390f053af15</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Statiatics" section_id="c1cfb32b97d272d0307db390f053af15" sys_domain="global" table="x_58872_needit_needit" version="3" view="miyakoshi"><sys_ui_element action="INSERT_OR_UPDATE"><element>opened_at</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-14 04:58:37</sys_created_on><sys_id>81cfb32b97d272d0307db390f053af53</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Statiatics" display_value="Statiatics" name="x_58872_needit_needit" sys_domain="global" view="05cf732b97d272d0307db390f053aff0">c1cfb32b97d272d0307db390f053af15</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-14 04:58:37</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sys_updated_on</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-14 04:58:37</sys_created_on><sys_id>4dcfb32b97d272d0307db390f053af53</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Statiatics" display_value="Statiatics" name="x_58872_needit_needit" sys_domain="global" view="05cf732b97d272d0307db390f053aff0">c1cfb32b97d272d0307db390f053af15</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-14 04:58:37</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sys_created_on</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-14 04:58:37</sys_created_on><sys_id>09cfb32b97d272d0307db390f053af54</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Statiatics" display_value="Statiatics" name="x_58872_needit_needit" sys_domain="global" view="05cf732b97d272d0307db390f053aff0">c1cfb32b97d272d0307db390f053af15</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-14 04:58:37</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-14 04:58:37</sys_created_on><sys_id>c1cfb32b97d272d0307db390f053af55</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Statiatics" display_value="Statiatics" name="x_58872_needit_needit" sys_domain="global" view="05cf732b97d272d0307db390f053aff0">c1cfb32b97d272d0307db390f053af15</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-14 04:58:37</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>opened_by</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-14 04:58:37</sys_created_on><sys_id>8dcfb32b97d272d0307db390f053af55</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Statiatics" display_value="Statiatics" name="x_58872_needit_needit" sys_domain="global" view="05cf732b97d272d0307db390f053aff0">c1cfb32b97d272d0307db390f053af15</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-14 04:58:37</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sys_updated_by</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-14 04:58:37</sys_created_on><sys_id>49cfb32b97d272d0307db390f053af56</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Statiatics" display_value="Statiatics" name="x_58872_needit_needit" sys_domain="global" view="05cf732b97d272d0307db390f053aff0">c1cfb32b97d272d0307db390f053af15</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-14 04:58:37</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sys_created_by</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-14 04:58:37</sys_created_on><sys_id>05cfb32b97d272d0307db390f053af57</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Statiatics" display_value="Statiatics" name="x_58872_needit_needit" sys_domain="global" view="05cf732b97d272d0307db390f053aff0">c1cfb32b97d272d0307db390f053af15</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-14 04:58:37</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>active</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-14 04:58:37</sys_created_on><sys_id>cdcfb32b97d272d0307db390f053af57</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Statiatics" display_value="Statiatics" name="x_58872_needit_needit" sys_domain="global" view="05cf732b97d272d0307db390f053aff0">c1cfb32b97d272d0307db390f053af15</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-14 04:58:37</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Statiatics</caption><header>false</header><name>x_58872_needit_needit</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-14 04:58:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c1cfb32b97d272d0307db390f053af15</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_58872_needit_needit</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ui_section_c1cfb32b97d272d0307db390f053af15</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-14 04:58:36</sys_updated_on><sys_user/><title>false</title><view display_value="miyakoshi" name="miyakoshi">05cf732b97d272d0307db390f053aff0</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1461268726</payload_hash>
+        <record_name>NeedIt</record_name>
+        <reverted_from/>
+        <source>1900972f975e32d0307db390f053af42</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-14 04:58:37</sys_created_on>
+        <sys_id>05cfb32b97d272d0307db390f053af5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19bbadeb9a20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-14 04:58:37</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>05cfb32bc4d272d095adf709e29ec95b</update_guid>
+        <update_guid_history>05cfb32bc4d272d095adf709e29ec95b:1461268726</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-14 04:59:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>ac3f2316550b45db9f85d0213daa00f1</sys_id>
+        <sys_metadata>c1cfb32b97d272d0307db390f053af15</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Statiatics</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt">52cb1fa397de32d0307db390f053aff0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ui_section_c1cfb32b97d272d0307db390f053af15</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_c1cfb32b97d272d0307db390f053af15">05cfb32b97d272d0307db390f053af5c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-14 04:59:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
